@@ -1,5 +1,6 @@
 :root {
     --menu-item-height: 10rem;
+    --burnt-orange: #bf5700;
 }
 
 body {
@@ -7,23 +8,20 @@ body {
     margin: 1rem;
 }
 
-img {
+.menu-item img {
     height: var(--menu-item-height);
     width: var(--menu-item-height);
     border-radius: 20px;
     object-fit: cover;
 }
 
-h1 {
-    margin: 2rem auto;
-    font-size: 5rem;
-    text-align: center;
-}
+
 
 h2 {
     margin: 2rem auto;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
+    color: var(--burnt-orange)
 }
 
 .menu-item {
@@ -42,7 +40,6 @@ h2 {
 .food-title {
     font-size: 1.5rem;
     font-weight: 600;
-    /* margin: 0.3rem; */
     text-align: left;
 }
 
@@ -55,4 +52,35 @@ h2 {
 button {
     border-radius: 20px;
     padding: 0 1rem;
+    background-color: #ddd;
+    color: black;
+    border: 0.2rem outset var(--burnt-orange);
+    box-shadow: -5px 5px 5px 0 #00000022;
+}
+
+.cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page-header {
+    margin: 2rem auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-header img {
+    height: 5rem;
+    width: 5rem;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.page-header p {
+    display: inline;
+    margin: auto;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
 }

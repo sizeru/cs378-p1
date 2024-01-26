@@ -11,28 +11,38 @@
     <!-- Import your style.css stylesheet -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Import custom font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
   </head>
   <!-- Implement below this point -->
   <body>
-    <div class="row">
-      <h1>Cafe Title</h1>
+    <div class="row page-header">
+      <div class="col-auto">
+        <img alt="A food truck in the woods that says UT HALAL" src="./ut-halal.jpg">
+      </div>
+      <div class="col-auto">
+        <p>UT Halal</p>
+      </div>
     </div>
     <div class="row">
-      <h2>Some flavor text</h2>
+      <h2 class="cedarville-cursive-regular">Authentic Halal Food Near UT Campus</h2>
     </div>
-    <!-- Images -->
+
+    <!-- Menu items -->
     <div class="row menu-item">
       <div class="col-auto">
-        <img alt="A wicker basket with french fries wrapped in a napkin" src="https://images.pexels.com/photos/1586942/pexels-photo-1586942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <img alt="A bowl with gyro, yellow rice, lettuce, tomatoes, and pita bread. Red sauce and white sauce is drizzled over the gyro" src="https://images.pexels.com/photos/6066052/pexels-photo-6066052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
       </div>
       <div class="col">
         <div class="row description-box">
-          <p class="food-title">French Fries</p>
-          <p class="food-description">Homemade french fries. Air fried.</p>
+          <p class="food-title">Gyro Over Rice</p>
+          <p class="food-description">Gyro, carrots, and salad. Served over brown rice.</p>
         </div>
         <div class="row price-box">
           <div class="col">
-            <p>$2.00</p>
+            <p>$9.00</p>
           </div>
           <div class="col-auto">
             <button>Add</button> 
@@ -83,16 +93,16 @@
 
     <div class="row menu-item">
       <div class="col-auto">
-        <img alt="A bowl with gyro, yellow rice, lettuce, tomatoes, and pita bread. Red sauce and white sauce is drizzled over the gyro" src="https://images.pexels.com/photos/6066052/pexels-photo-6066052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+        <img alt="A wicker basket with french fries wrapped in a napkin" src="https://images.pexels.com/photos/1586942/pexels-photo-1586942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
       </div>
       <div class="col">
         <div class="row description-box">
-          <p class="food-title">Gyro Over Rice</p>
-          <p class="food-description">Gyro, carrots, and salad. Served over brown rice.</p>
+          <p class="food-title">French Fries</p>
+          <p class="food-description">Homemade french fries. Air fried.</p>
         </div>
         <div class="row price-box">
           <div class="col">
-            <p>$9.00</p>
+            <p>$2.00</p>
           </div>
           <div class="col-auto">
             <button>Add</button> 
