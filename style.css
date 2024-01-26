@@ -1,3 +1,55 @@
+:root {
+    --menu-item-height: 10rem;
+}
+
 body {
-    color: hotpink;
+    color: black;
+    margin: 1rem;
+}
+
+img {
+    height: var(--menu-item-height);
+    width: var(--menu-item-height);
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+h1 {
+    margin: 2rem auto;
+    font-size: 5rem;
+    text-align: center;
+}
+
+h2 {
+    margin: 2rem auto;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.menu-item {
+    height: var(--menu-item-height);
+    margin: 3rem 1rem;
+    /* overflow: scroll; */
+}
+
+.description-box {
+    height: calc(var(--menu-item-height) * (4/5));
+}
+
+.price-box {
+    height: calc(var(--menu-item-height) * (1/5));
+}
+.food-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.food-description {
+    font-size: 1rem;
+    color: #444;
+}
+
+button {
+    border-radius: 20px;
+    padding: 0 1rem;
 }
